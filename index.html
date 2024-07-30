@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic-Tac-Toe</h1>
+      <div id="gameMode">
+        <button id="aiVsPlayer">AI vs Player</button>
+        <button id="playerVsPlayer">Player vs Player</button>
+      </div>
+      <div id="board" style="display: none">
+        <button class="cell" data-index="0"></button>
+        <button class="cell" data-index="1"></button>
+        <button class="cell" data-index="2"></button>
+        <button class="cell" data-index="3"></button>
+        <button class="cell" data-index="4"></button>
+        <button class="cell" data-index="5"></button>
+        <button class="cell" data-index="6"></button>
+        <button class="cell" data-index="7"></button>
+        <button class="cell" data-index="8"></button>
+      </div>
+      <div id="status" style="display: none">
+        <p id="message"></p>
+        <p id="score"></p>
+        <button id="themeBtn">Change Theme (Costs 1 Token)</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
