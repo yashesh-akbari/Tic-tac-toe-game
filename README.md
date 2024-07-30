@@ -1,7 +1,7 @@
 # Tic-tac-toe-game
 Tic-Tac-Toe game developing using html,Css,JavaScript 
 
-Live Preview: 
+Live Preview: https://mp7ipx.mimo.run/index.html
 
 
 <!DOCTYPE html>
